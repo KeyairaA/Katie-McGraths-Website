@@ -1,0 +1,16 @@
+.app-navigation{
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+.__nav_links {
+  font-family:Code_Pro_Demo;
+  color: white; 
+  text-decoration: none;
+  text-align: center;
+}
+
+.__nav_links:hover:not(.active) {
+  background-color: none;
+  color: red;
+}
