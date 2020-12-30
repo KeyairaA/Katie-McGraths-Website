@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Home from "./views/Home/Home";
-import Biography from "./components/Biography";
+// import Biography from "./components/Biography";
 import Navigation from "./shared/Navigation/Navigation";
 // example importing images directly into react component
 import BackgroundImage from "./assets/PageBackgroundImages/Katie1.jpg";
