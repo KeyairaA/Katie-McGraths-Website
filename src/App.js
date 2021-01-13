@@ -1,11 +1,15 @@
 import React, { Component } from "react";
 import "./App.css";
-import Home from "./views/Home/Home";
-// import Biography from "./components/Biography";
 import Navigation from "./shared/Navigation/Navigation";
 // example importing images directly into react component
 import BackgroundImage from "./assets/PageBackgroundImages/Katie1.jpg";
 import Header from "./shared/Header/Header";
+
+import { createBrowserHistory } from "history";
+import { Router,Switch } from "react-router";
+import { appRoutes } from "./AppRouting";
+
+const history = createBrowserHistory();
 
 class App extends Component {
   render() {
@@ -26,12 +30,14 @@ class App extends Component {
         {/* <img src={BackgroundImage} alt="website logo" className="app-backgroundimage"/> */}
         {/* <Navigation></Navigation> */}
         {/* demo of two ways to import a react component into another react component */}
-        <div style={appHeaderStyles}>
+        <Router history={history}>
+          <div style={appHeaderStyles}>
           <Header />
           <Navigation />
         </div>
-        <Home></Home>
-        {/* <Biography></Biography> */}
+          <Switch>{appRoutes()}</Switch>
+        </Router>
+        
       </div>
     );
   }

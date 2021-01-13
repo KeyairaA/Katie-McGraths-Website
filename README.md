@@ -70,9 +70,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 Git commit Message:
-Refactor our component to have seperate components in the Header and Nav Links
-Added Custom Font into react app
-Added a bunch of images to use for later
-Added Background Image
-Set up a folder hierachy for views, assets, and components
-Prepared for routing

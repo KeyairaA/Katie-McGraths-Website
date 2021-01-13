@@ -9,6 +9,10 @@
   text-decoration: none;
   text-align: center;
 }
+.__nav_links.--active {
+  color: grey; 
+  text-decoration: underline;
+}
 
 .__nav_links:hover:not(.active) {
   background-color: none;
