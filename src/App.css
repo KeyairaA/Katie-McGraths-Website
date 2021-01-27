@@ -6,3 +6,11 @@
   font-family: 'Code_Pro_Demo';
   src: local('Code_Pro_Demo'),url('./assets/Code_Pro_Demo.otf') format('opentype');
 }
+
+/* .home{
+  background: url(./assets/PageBackgroundImages/Katie1.jpg) fixed;
+} */
+
+html{
+  background-color: black;
+}

@@ -70,3 +70,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 Git commit Message:
+Add individual images to Home and Biography page
+Add css to biography.
+Refactor biography paragraph into an array of paragraph data.
+Showed different ways to desturcting variables from the properties object thats passed to a React component as while as passing the props object and desturcting properties within the React component.
+Added an example of sharing styles object between HTML elements.
+Example of class-based react component (Biography.jsx) and pure-stateless component (BiographyPar.jsx)
+Stateless component means that component has everything it needs to render and doesn't have internal states.

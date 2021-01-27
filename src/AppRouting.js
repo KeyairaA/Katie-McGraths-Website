@@ -1,6 +1,6 @@
 import { Route } from "react-router";
 import Home from "./views/Home/Home";
-import Biography from "./components/Biography";
+import Biography from "./views/Biography/Biography";
 export function appRoutes() {
   return [
     <Route exact path="/home">
