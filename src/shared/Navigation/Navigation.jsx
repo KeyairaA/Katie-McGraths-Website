@@ -13,6 +13,7 @@ export default class Navigation extends Component {
           {/* <a href="Katie Works.html" className="__nav_links">
             Works
           </a> */}
+           <NavLink to="/works" className="__nav_links" activeClassName="--active">Works</NavLink>
           {/* TODO- extract links to JS variables, import here and appRouting */}
           <NavLink to="/biography" className="__nav_links" activeClassName="--active">Biography</NavLink>
           {/* <a href="Katie Biography.html" className="__nav_links">
