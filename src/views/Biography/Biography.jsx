@@ -6,36 +6,42 @@ import { BiographyPar } from "./BiographyPar";
 
 export default class Biography extends Component {
   render() {
-    const sharedStyles = {
-      width: "50%",
-    };
+    // const sharedStyles = {
+    //   width: "50%",
+    // };
 
     const asideStyles = {
       backgroundImage: `url(${BackgroundImage})`,
       backgroundSize: "cover",
-      height: "100vh",
-      position: "fixed",
-      right: "0",
-      top: "0",
-      zIndex: "-1",
+      // height: "100vh",
+      backgroundPosition: "50%"
+      // position: "fixed",
+      // right: "0",
+      // zIndex: "-1",
 
-      ...sharedStyles,
+      // ...sharedStyles,
     };
     const mainStyles = {
       textAlign: "center",
-      ...sharedStyles,
+      padding: "0 1rem"
+      // ...sharedStyles,
     };
+
+  const twoColumnLayout = {
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr",
+    marginTop: "1rem"
+  };
     return (
-      <div>
-        <aside style={asideStyles}></aside>
+      <div style={twoColumnLayout}>
+        <aside style={asideStyles}/>
 
         <main style={mainStyles}>
           <h2 className="bio-heading">Katie McGrath</h2>
-
-          <p className="bio">Irish Actress</p>
           {biographyData.map((item) => (
             <BiographyPar dataItem = {item}/>
           ))}
+
         </main>
       </div>
     );

@@ -1,5 +1,8 @@
 export const biographyData = [
-  `
+    `
+    Irish Actress
+    `,
+    `
                     Katherine Elizabeth McGrath (/məˈɡrɑː/) is an Irish actress. In television, she is best known for portraying Morgana on the BBC One series Merlin (2008–2012), Lucy Westenra on the British-American series Dracula (2013–2014), Sarah Bennett in the first season of the Canadian horror anthology series Slasher (2016) and for her role as Lena Luthor on the American superhero series Supergirl (2016–present). Her film roles include Lady Thelma Furness in the drama film W.E. and Jules Daley in the Christmas movie delight A Princess for Christmas, (2011), Zara in the science fiction adventure film Jurassic World (2015) and Elsa in the epic fantasy film King Arthur: Legend of the Sword (2017).`,
   `
                     McGrath was raised in Ashford, County Wicklow, Ireland, by Paul, who works with computers, and Mary, who works for an Irish designer. She has two older brothers, Sean, an online media manager, and Rory, who is a post-production producer.
@@ -36,7 +39,4 @@ export const biographyData = [
   `
                     In 2016, it was announced that McGrath would play the recurring role of Lena Luthor in the second season of Supergirl. She appeared in the season two premiere episode entitled "The Adventures of Supergirl" and was promoted to a series regular in March 2017 for the third season. She appeared as Elsa in Guy Ritchie's fantasy film King Arthur: Legend of the Sword, which was released in May 2017.
                 `,
-  `
-        New paragraph.
-        `,
 ];

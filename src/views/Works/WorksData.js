@@ -9,14 +9,14 @@ export const worksData = [
   {
     cardHeading: "Crisis on Infinite Earths",
     cardSubHeading: "2020",
-    cardLink: "https://www.cwtv.com/shows/supergirl/?campaign=google_kp_watch",
+    cardLink: "https://www.imdb.com/title/tt13010326/",
     cardImage: "images/Crisis.jpg",
     imageAltText: "Lena Luthor",
   },
   {
-    cardHeading: "Secret Bridesmaids' Business ",
+    cardHeading: "Secret Bridesmaids' Business",
     cardSubHeading: "Since 2019",
-    cardLink: "https://www.cwtv.com/shows/supergirl/?campaign=google_kp_watch",
+    cardLink: "https://www.imdb.com/title/tt9893174/",
     cardImage: "images/Secret.jpg",
     imageAltText: "Saskia De Merindol",
   },
